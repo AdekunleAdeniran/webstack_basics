@@ -1,0 +1,17 @@
+header {
+    background-color: #FF0000;
+    height: 60px;
+    width: 100%;
+    padding-top: 10px;
+    position: relative;
+}
+.container {
+    background-color:  #00FF00;
+    height: 50px;
+    max-width: 1000px;
+    align-content: center;
+    position: relative;
+    list-style-type: none;
+    padding: 0;
+    top: 5%;
+}
