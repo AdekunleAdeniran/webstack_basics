@@ -1,8 +1,6 @@
 #!/usr/bin/python3
-"""Program to print arguments"""
-from sys import argv
-
 if __name__ == "__main__":
+    from sys import argv
     res = argv[1:]
     if len(res) == 0:
         print("{} arguments.".format(len(res)))
