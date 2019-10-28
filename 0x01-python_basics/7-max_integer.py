@@ -5,7 +5,7 @@
 def max_integer(my_list=[]):
     """Python function to find max integer in list"""
     if len(my_list) == 0:
-        return my_list
+        return None
     else:
         bigger = 0
         for items in my_list:
